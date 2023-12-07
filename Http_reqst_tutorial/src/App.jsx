@@ -1,12 +1,14 @@
 
-import { PostList } from './PostList.jsx'
+import { PostForm } from './PostForm.jsx'
+//import { PostList } from './PostList.jsx'
 
 
 function App() {
  
 
   return (
-   <PostList/>
+   //<PostList/>
+   <PostForm/>
   )
 }
 
