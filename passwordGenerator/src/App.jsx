@@ -27,6 +27,7 @@ const generatePassword = useCallback(() => {
 const copyPasswordToClipboard = () => {
   window.navigator.clipboard.writeText( password)
 }
+
 useEffect(() => {
 generatePassword()
 }, [length, numberAllowed, charAllowed])
