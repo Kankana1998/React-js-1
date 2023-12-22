@@ -1,3 +1,5 @@
+import Food from "./Food"
+import Footer from "./Footer"
 import Header from "./Header"
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     
     <>
    <Header/>
+   <Food/>
+   <Footer/>
     </>
   )
 }
