@@ -13,9 +13,7 @@ const name="Kankana"
 
  return (
     <>
-    <data.Provider value={name}>
     <ChildA/>
-    </data.Provider>
       
     </>
   )
