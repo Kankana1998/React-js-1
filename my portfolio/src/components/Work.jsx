@@ -1,50 +1,32 @@
 import React from 'react'
 
-const Work = (imageUrl) => {
+function Work() {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img className="w-full h-48 object-cover" src={imageUrl}  />
-      
+    <section className="work section" id="work">
+    <h2 className="section-title">Work</h2>
+
+    <div className="work__container bd-grid">
+        <a href="" className="work__img">
+            <img src="src/assets/img/work1.jpg" alt=""/>
+        </a>
+        <a href="" className="work__img">
+            <img src="src/assets/img/work2.jpg" alt=""/>
+        </a>
+        <a href="" className="work__img">
+            <img src="src/assets/img/work3.jpg" alt=""/>
+        </a>
+        <a href="" className="work__img">
+            <img src="src/assets/img/work4.jpg" alt=""/>
+        </a>
+        <a href="" className="work__img">
+            <img src="src/assets/img/work5.jpg" alt=""/>
+        </a>
+        <a href="" className="work__img">
+            <img src="src/assets/img/work6.jpg" alt=""/>
+        </a>
     </div>
-  );
-};
-
-
-const CardGrid = () => {
-  const cardsData = [
-    {
-      
-      imageUrl: 'https://placekitten.com/300/200',
-    },
-    {
-      
-      imageUrl: 'https://placekitten.com/301/200',
-    },
-    {
-      
-      imageUrl: 'https://placekitten.com/302/200',
-    },
-    {
-      
-      imageUrl: 'https://placekitten.com/303/200',
-    },
-    {
-     
-      imageUrl: 'https://placekitten.com/304/200',
-    },
-    {
-      
-      imageUrl: 'https://placekitten.com/305/200',
-    },
-  ];
-
-  return (
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-      {cardsData.map((card, index) => (
-        <Work key={index} {...Work} />
-      ))}
-    </div>
-  );
-};
+</section>
+  )
+}
 
 export default Work

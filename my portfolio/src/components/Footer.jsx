@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-  <footer className='bg-gray-700 border-y text-white'>
+  <footer className='bg-gray-800 border-y text-white'>
     <div className='mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 md:flex md:justify-between'>
 
-    <p className='mr-3'>Kankana</p><br/>
+    <p className='text-[hsl(224,89%,60%)] mr-3'>Kankana</p><br/>
     <div className='font-medium'>
             <a href="#" class="footer__icon px-2 hover:underline"><FontAwesomeIcon icon={faGithub} /></a>
               <a href="#" class="footer__icon hover:underline"><FontAwesomeIcon icon={faTwitter} /></a>
