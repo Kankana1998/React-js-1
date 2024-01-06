@@ -5,7 +5,7 @@ function Work() {
     <section className="work section" id="work">
     <h2 className="section-title">Work</h2>
 
-    <div className="work__container bd-grid">
+    <div className="work__container grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
         <a href="" className="work__img">
             <img src="src/assets/img/work1.jpg" alt=""/>
         </a>
