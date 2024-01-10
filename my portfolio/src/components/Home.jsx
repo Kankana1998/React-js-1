@@ -5,7 +5,7 @@ const Home = () => {
     <>
     <section className="home bd-grid" id="home">
     <div className="home__data">
-        <h1 className="home__title">Hi,<br/>I'am <span className="text-[hsl(224,56%,12%)] home__title-color">Kankana</span><br/> Frontend Developer</h1>
+        <h1 className="font-abc home__title">Hi,<br/>I'am <span className="text-[hsl(224,56%,12%)] home__title-color">Kankana</span><br/> Frontend Developer</h1>
     </div>
 
     <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
