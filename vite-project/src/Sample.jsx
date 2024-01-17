@@ -1,12 +1,17 @@
 import Theme from "./Theme";
-import { Consumer } from "react";
+import React from "react";
 const Sample = () => {
   return (
     <Theme.Consumer>
-      <div>
-        Our theme is:
-        {Theme}
-      </div>
+      {
+        (value) =>(
+          <div>
+          Our theme is:
+          {value}
+      </div>)
+      }
+        
+        
     </Theme.Consumer>
   );
 };

@@ -1,14 +1,14 @@
-import Theme from "./Theme";
-import Sample from "./Sample";
+import ThemeContext from './Theme'
 import './App.css'
+import Sample from './Sample'
 
 function App() {
  
   return (
     <>
-      <Theme.Provider value="dark">
+     <ThemeContext.Provider value='dark'>
       <Sample />
-    </Theme.Provider>
+     </ThemeContext.Provider>
     </>
   )
 }
