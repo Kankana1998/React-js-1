@@ -74,10 +74,10 @@ function TextEditor() {
     const contentState = editorState.getCurrentContent();
     const selectionState = editorState.getSelection();
     const newContentState = contentState.createEntity('REDLINE', 'MUTABLE', { color: 'red' });
-    const entityKey = newContentState.getLastCreatedEntityKey();
-    const textWithEntity = Modifier.insertText(newContentState, selectionState, ' ', null, entityKey);
-    const newEditorState = EditorState.push(editorState, textWithEntity, 'insert-characters');
-    return EditorState.forceSelection(newEditorState, textWithEntity.getSelectionAfter());
+    // const entityKey = newContentState.getLastCreatedEntityKey();
+    // const textWithEntity = Modifier.insertText(newContentState, selectionState, ' ', null, entityKey);
+    // const newEditorState = EditorState.push(editorState, textWithEntity, 'insert-characters');
+    // return EditorState.forceSelection(newEditorState, textWithEntity.getSelectionAfter());
   };
 
   return (
