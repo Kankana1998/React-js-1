@@ -10,6 +10,7 @@ function App() {
       <Sample />
      </ThemeContext.Provider> */}
     <MyComponent name='Sudheer' age={30}/>
+    
     </>
   )
 }
